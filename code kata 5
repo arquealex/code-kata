@@ -1,0 +1,9 @@
+let estadoPizza = "No tengo";
+
+if (estadoPizza == "false") {
+    console.log("No tengo pizza");
+} else if (estadoPizza == "true") {
+    console.log("Tengo pizza");
+} else {
+    console.log(estadoPizza);
+}
