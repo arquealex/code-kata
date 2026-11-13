@@ -1,0 +1,8 @@
+function obtenerCopyright() {
+    let mensajeLegal = "Alejandro - OpenWebinars 2026";
+    return mensajeLegal;
+}
+
+let resultado = obtenerCopyright();
+
+console.log(resultado);
