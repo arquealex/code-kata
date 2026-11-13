@@ -1,0 +1,22 @@
+/*
+Con función (Sin problemas)
+function imprimirNombre() {
+    let nombre = "Alejandro";
+    let apellido = "Arquelladas";
+
+    if (nombre === "Alejandro") {
+        console.log(apellido);
+    }
+}
+
+imprimirNombre();
+*/
+
+// Sin función (Problema de alcance)
+let nombreUsuario = "Alejandro";
+
+if (true) {
+    let mensajeTexto = "Mi nombre es Alejandro";
+}
+
+console.log(nombreUsuario);
